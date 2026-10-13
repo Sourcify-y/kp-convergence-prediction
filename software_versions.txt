@@ -1,0 +1,7 @@
+R 4.6.1: pROC 1.19.1, phangorn 2.12.1, data.table 1.18.6.1
+Python: scikit-learn 1.9.0, pandas 2.3.3, SciPy 1.17.1, NumPy 2.4.6
+abricate 1.4.0 (CARD 2026-04-03, PlasmidFinder 2026-04-03)
+MOB-suite 3.1.9
+Mash 2.3
+Kleborate 3.2.4
+HyperTraPS-CT hypertraps.ce, commit 49b0a88 (14 May 2025)
