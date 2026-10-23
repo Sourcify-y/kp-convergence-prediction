@@ -56,7 +56,7 @@ df[df['genome_id'].isin(rep_acc)].to_csv('kp_pull_20k/kp_metadata_FULL_dedup.csv
 **4. Character matrix.** 8,318 genomes, 20 characters (14 resistance classes, 6 virulence loci).
 
 ```bash
-python build_character_matrix.py \
+python data_build_character_matrix.py \
   --csv kp_pull_20k/kp_metadata_FULL_dedup.csv \
   --manifest kp_pull_20k/03_download_manifest.csv \
   --genome-list mash_test/representative_genomes.txt \
@@ -65,7 +65,7 @@ python build_character_matrix.py \
 
 **5. Tree and acquisition events.** Neighbour-joining tree from Mash distances, Fitch parsimony ancestral state reconstruction. `make_tree_figure.py`.
 
-**6. Temporal split and baselines.** TRAIN ≤2017, VALIDATE 2018 to 2020, TEST 2021 to 2022. `temporal_window_analysis.py`, `phase6_baselines.py`.
+**6. Temporal split and baselines.** TRAIN ≤2017, VALIDATE 2018 to 2020, TEST 2021 to 2022. `data_temporal_split_analysis.py`, `phase6_baselines.py`.
 
 **7. HyperTraPS.** Flags: `--length 4 --kernel 5 --model 1`, 3 seeds.
 - Full data: `kp-full-data-20char.txt`, labels `kp_full_run_model1_s{0,1,2}`.
