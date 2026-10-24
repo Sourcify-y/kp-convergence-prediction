@@ -78,6 +78,26 @@ python data_build_character_matrix.py \
 
 **10. Figures and tables.** `feasibility_plots.py`, `compute_resistance_prevalence.py`.
 
+Browser-based demonstration
+
+This repository includes a small executable notebook demonstrating data validation and chronological evaluation concepts related to the research project.
+
+Open the notebook in Google Colab
+
+Run the demo
+
+Open the notebook using the Colab link above.
+
+Run the first cell and upload demo/toy_genomes_synthetic.csv when prompted.
+
+Run the remaining cells in order, or select Runtime → Run all.
+
+Scope and limitations
+
+The demonstration uses a small, entirely synthetic dataset. Its illustrative labels and calculated metrics are not research findings and do not represent measured outcomes from Klebsiella pneumoniae. The notebook demonstrates data checks, a chronological train/test split, and baseline model evaluation. It does not reproduce the full 8,318-genome analysis or run HyperTraPS-CT and the complete bioinformatics pipeline.
+
+See demo/README_DEMO.md for full instructions and limitations.
+
 ## Data availability
 
 Genome assemblies are available from NCBI. Accessions are listed in the Supplementary Materials.
