@@ -1,0 +1,17 @@
+sample_id,collection_year,lineage_id,resistance_class_count,virulence_marker_count,shared_context_observed,illustrative_convergence_label
+SYN001,2018,ST-A,1,1,0,0
+SYN002,2018,ST-B,2,1,0,0
+SYN003,2019,ST-C,1,2,0,0
+SYN004,2019,ST-D,2,2,1,0
+SYN005,2019,ST-E,3,1,0,0
+SYN006,2020,ST-F,2,3,1,1
+SYN007,2020,ST-G,3,2,0,0
+SYN008,2020,ST-H,2,2,1,0
+SYN009,2021,ST-I,4,3,1,1
+SYN010,2021,ST-J,3,3,0,0
+SYN011,2021,ST-K,4,2,1,1
+SYN012,2022,ST-L,3,4,1,1
+SYN013,2022,ST-M,4,3,1,1
+SYN014,2022,ST-N,2,4,0,0
+SYN015,2023,ST-O,4,4,1,1
+SYN016,2023,ST-P,3,2,0,0
