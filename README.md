@@ -88,7 +88,7 @@ Open the notebook in Google Colab: https://colab.research.google.com/github/Sour
 
 1. Open the notebook using the Colab link above.
 
-2. Run the first cell and upload demo/toy_genomes_synthetic.csv when prompted.
+2. Run the first cell.
 
 3. Run the remaining cells in order, or select Runtime → Run all.
 
